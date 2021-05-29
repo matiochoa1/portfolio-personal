@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+    <title>Portofolio Personal - Matías Ochoa</title>
+</head>
+<body>
+
+    <header class="header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra-navegacion">
+                <a href="/">
+                    <h1><span>Portfolio</span>Personal</h1>
+                </a>
+
+                <div class="menu-movil">
+                    <img src="build/img/barras.svg" alt="Navegacion responsive">
+                </div>
+
+                <div class="derecha">
+                    <img src="build/img/dark-mode.svg" alt="Dark Mode" class="dark-mode-boton">
+
+                    <nav class="navegacion">
+                        <a href="#about-me">About me</a>
+                        <a href="#">Projects</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </div>
+            </div>
+
+            <h2>¡Welcome to my site!</h2>
+        </div>
+    </header>
+
+    <main class="contenedor seccion-principal" id="about-me">
+        <h2 class="border">About me</h2>
+
+        <div class="about-me">
+            <picture>
+                <source srcset="build/img/personal2.webp" type="img/webp">
+                <source srcset="build/img/personal2.jpg" type="img/jpeg">
+                <img src="build/img/personal2.jpg" alt="Imagen personal">
+            </picture>
+
+            <div class="about-me__contenido">
+                <h3>Matías Ochoa</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed minima, quia culpa sapiente laboriosam nostrum rerum quisquam cum aliquam voluptatem eos iusto, et ab nobis necessitatibus? Aliquam, totam ratione!</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis mollitia dolore nisi nobis esse magni pariatur rerum veritatis, iure numquam minima quaerat officia inventore, tempora nihil consectetur sapiente, dicta placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, accusamus obcaecati molestiae eius veritatis dolores officiis ab error? Perferendis voluptatum reprehenderit pariatur fuga. Corrupti inventore neque ex iste perspiciatis repellendus.</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="contenedor seccion-proyectos">
+        <h2 class="border">Projects</h2>
+    </section>
+
+    <footer class="footer seccion">
+        <div class="contenedor contenido-footer">
+            <nav class="navegacion">
+                <a href="#about-me">About me</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+
+        <p class="text-center">Todos los derechos reservados. &copy; Matías Ochoa - 2021</p>
+    </footer>
+
+    <script src="/src/js/modernizr.js"></script>
+    <script src="/src/js/app.js"></script>
+</body>
+</html>
