@@ -374,7 +374,7 @@ h3 {
     .dark-mode .header.inicio {
       background-position: center center;
       background-size: cover;
-      background-image: url(./coder2.jpg) !important; }
+      background-image: url(img/coder2.JPG) !important; }
       @media (min-width: 768px) {
         .dark-mode .header.inicio {
           min-height: 70rem; } }
@@ -400,10 +400,10 @@ h3 {
     background-color: #052338; }
 
 .no-webp .inicio {
-  background-image: url(./coder.jpg); }
+  background-image: url(img/coder.JPG); }
 
 .webp .inicio {
-  background-image: url(./coder.webp); }
+  background-image: url(img/coder.WEBP); }
 
 .header {
   background-color: #fffffe;
