@@ -374,7 +374,7 @@ h3 {
     .dark-mode .header.inicio {
       background-position: center center;
       background-size: cover;
-      background-image: url(build/img/coder2.JPG) !important; }
+      background-image: url(https://github.com/matiochoa1/portfolio-personal/blob/ced451635c54c440573ba24ca9daf1923a9df27d/build/img/coder2.jpg) !important; }
       @media (min-width: 768px) {
         .dark-mode .header.inicio {
           min-height: 70rem; } }
@@ -400,10 +400,10 @@ h3 {
     background-color: #052338; }
 
 .no-webp .inicio {
-  background-image: url(build/img/coder.JPG); }
+  background-image: url(https://github.com/matiochoa1/portfolio-personal/blob/ced451635c54c440573ba24ca9daf1923a9df27d/build/img/coder.jpg); }
 
 .webp .inicio {
-  background-image: url(build/img/coder.WEBP); }
+  background-image: url(https://github.com/matiochoa1/portfolio-personal/blob/ced451635c54c440573ba24ca9daf1923a9df27d/build/img/coder.webp); }
 
 .header {
   background-color: #fffffe;
